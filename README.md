@@ -1,7 +1,7 @@
 # 👋 你好，我是 66six11！
 
 <div align="center">
-  <img src="https://github.com/66six11/66six11/blob/main/gif/%E4%BC%8A%E9%9B%B7%E5%A8%9C.gif" alt="欢迎动画" width = "420">
+  <img src="https://github.com/66six11/66six11/blob/main/gif/%E4%BC%8A%E9%9B%B7%E5%A8%9C.gif" alt="欢迎动画" width = "800">
 </div>
 
 <div align="center">
