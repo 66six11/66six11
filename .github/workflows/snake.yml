@@ -1,0 +1,32 @@
+name: 生成3D贡献动画
+
+on:
+  schedule:
+    # 每天UTC时间12:00更新
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v3
+
+      - name: 生成贡献网格蛇形动画
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: 66six11
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: 推送输出到output分支
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
