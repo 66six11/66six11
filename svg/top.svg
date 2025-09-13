@@ -1,0 +1,16 @@
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景动图（把 your.gif 换成真实路径或外链） -->
+  <image href="../gif/伊蕾娜" x="0" y="0" width="800" height="260" preserveAspectRatio="xMidYMid slice"/>
+  <!-- 加一层半透明暗化，保证文字可读 -->
+  <rect x="0" y="0" width="800" height="260" fill="#000000" opacity="0.35"/>
+  <!-- 文字描边（用 paint-order 实现描边，增强对比） -->
+  <text x="50%" y="50%" text-anchor="middle"
+        font-size="78"
+        font-family="Segoe UI, system-ui, Arial, sans-serif"
+        fill="#ffffff"
+        style="paint-order:stroke;stroke:#000;stroke-width:8;stroke-linejoin:round;">66six11</text>
+  <text x="50%" y="70%" text-anchor="middle"
+        font-size="26"
+        font-family="Segoe UI, system-ui, Arial, sans-serif"
+        fill="#ffffff" opacity="0.85">C# | C++ | Unity | Graphics</text>
+</svg>
