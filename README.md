@@ -1,4 +1,3 @@
-# 👋 你好，我是 66six11！
 
 <p align="center">
   <img src="./svg/top.svg" alt="66six11 Banner">
