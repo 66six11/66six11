@@ -9,10 +9,9 @@
 	![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
  ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
  ![Blender](https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white)
+
+ ---
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=500&color=36BCF7&width=600&lines=欢迎来到我的GitHub主页!;Welcome+to+my+GitHub+Profile!;热爱编程，享受创造的乐趣;Passionate+about+coding+and+creating" alt="Typing SVG" />
-
-
   <a href="https://github.com/anuraghazra/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=66six11&show_icons=true&locale=cn" />
 </a>
