@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./svg/top2.svg" alt="66six11 Banner">
+  <img src="./svg/top2.svg" alt="66six11">
 </p>
 
 <div align="center">
