@@ -43643,11 +43643,30 @@ skMVA5vBzzCNV7nBotIc0lC8xDmAxsuMZeuMDjABori2JdwaClBChwgIADs="
   <!-- 加一层半透明暗化，保证文字可读 -->
  <!--  <rect x="0" y="0" width="800" height="260" fill="#000000" opacity="0.35"/>-->
   <!-- 文字描边（用 paint-order 实现描边，增强对比） -->
-  <text x="50%" y="50%" text-anchor="middle"
-        font-size="78"
+    <rect width="100%" height="100%" fill="none"/>
+  <text id="title" x="50%" y="50%" text-anchor="middle"
+        font-size="80"
         font-family="Segoe UI, system-ui, Arial, sans-serif"
-        fill="#ffffff"
-        style="paint-order:stroke;stroke:#000;stroke-width:8;stroke-linejoin:round;">66six11</text>
+        fill="none"
+        stroke="#fff"
+        stroke-width="2"
+        stroke-linejoin="round"
+        style="paint-order:stroke;">
+    66six11
+    <animate attributeName="stroke-dasharray"
+             from="0,800"
+             to="800,0"
+             dur="4s"
+             fill="freeze" />
+
+    <animate attributeName="fill"
+             begin="3s"
+             dur="1s"
+             from="rgba(255,255,255,0)"
+             to="#ffffff"
+             fill="freeze" />
+  </text>
+
   <text x="50%" y="70%" text-anchor="middle"
         font-size="26"
         font-family="Segoe UI, system-ui, Arial, sans-serif"
