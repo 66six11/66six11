@@ -43667,8 +43667,48 @@ skMVA5vBzzCNV7nBotIc0lC8xDmAxsuMZeuMDjABori2JdwaClBChwgIADs="
              fill="freeze" />
   </text>
 
+  
+  <style>
+    text tspan {
+      opacity: 0;
+      animation: fadeIn 0.001s linear forwards;
+    }
+    @keyframes fadeIn { to { opacity: 0.85; } }
+    /* 如果想有放大：再加 animation: fadeIn 0.001s forwards, pop 0.18s ease; */
+    @keyframes pop { 0% { transform:scale(0.8); } 100% { transform:scale(1); } }
+  </style>
+  <rect width="100%" height="100%" fill="none"/>
   <text x="50%" y="70%" text-anchor="middle"
-        font-size="26"
+        font-size="25"
         font-family="Segoe UI, system-ui, Arial, sans-serif"
-        fill="#ffffff" opacity="0.85">C# | C++ | Unity | Graphics</text>
+        fill="#ffffff" >
+    <!-- delay 步长 0.09s -->
+    <tspan style="animation-delay:calc(1.6s + 0*0.09s)">C</tspan>
+    <tspan style="animation-delay:calc(1.6s + 1*0.09s)">#</tspan>
+    <tspan style="animation-delay:calc(1.6s + 2*0.09s)"> </tspan>
+    <tspan style="animation-delay:calc(1.6s + 3*0.09s)">|</tspan>
+    <tspan style="animation-delay:calc(1.6s + 4*0.09s)"> </tspan>
+    <tspan style="animation-delay:calc(1.6s + 5*0.09s)">C</tspan>
+    <tspan style="animation-delay:calc(1.6s + 6*0.09s)">+</tspan>
+    <tspan style="animation-delay:calc(1.6s + 7*0.09s)">+</tspan>
+    <tspan style="animation-delay:calc(1.6s + 8*0.09s)"> </tspan>
+    <tspan style="animation-delay:calc(1.6s + 9*0.09s)">|</tspan>
+    <tspan style="animation-delay:calc(1.6s + 10*0.09s)"> </tspan>
+    <tspan style="animation-delay:calc(1.6s + 11*0.09s)">U</tspan>
+    <tspan style="animation-delay:calc(1.6s + 12*0.09s)">n</tspan>
+    <tspan style="animation-delay:calc(1.6s + 13*0.09s)">i</tspan>
+    <tspan style="animation-delay:calc(1.6s + 14*0.09s)">t</tspan>
+    <tspan style="animation-delay:calc(1.6s + 15*0.09s)">y</tspan>
+    <tspan style="animation-delay:calc(1.6s + 16*0.09s)"> </tspan>
+    <tspan style="animation-delay:calc(1.6s + 17*0.09s)">|</tspan>
+    <tspan style="animation-delay:calc(1.6s + 18*0.09s)"> </tspan>
+    <tspan style="animation-delay:calc(1.6s + 19*0.09s)">G</tspan>
+    <tspan style="animation-delay:calc(1.6s + 20*0.09s)">r</tspan>
+    <tspan style="animation-delay:calc(1.6s + 21*0.09s)">a</tspan>
+    <tspan style="animation-delay:calc(1.6s + 22*0.09s)">p</tspan>
+    <tspan style="animation-delay:calc(1.6s + 23*0.09s)">h</tspan>
+    <tspan style="animation-delay:calc(1.6s + 24*0.09s)">i</tspan>
+    <tspan style="animation-delay:calc(1.6s + 25*0.09s)">c</tspan>
+    <tspan style="animation-delay:calc(1.6s + 26*0.09s)">s</tspan>
+  </text>
 </svg>
